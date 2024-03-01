@@ -1,3 +1,12 @@
 Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
 
 PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
+
+espacio de trabajo - staged => git add nombre.txt
+staged -  repositorio (repositorio local)  => git commit
+staged - workspace => git reset --staged
+GitHub - repositorio local => git clone     trae una copia del repositorio de GitHub
+GitHub - repositorio local => git pull
+repositorio local - GitHub => git push
+
+
